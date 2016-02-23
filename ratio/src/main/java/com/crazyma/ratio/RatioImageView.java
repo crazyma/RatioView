@@ -43,6 +43,21 @@ public class RatioImageView extends ImageView implements RatioView{
         }
     }
 
+    public int getRatioWidth() {
+        return ratioWidth;
+    }
+
+    public void setRatio(int ratioWidth,int ratioHeight){
+        this.ratioWidth = ratioWidth;
+        this.ratioHeight = ratioHeight;
+        requestLayout();
+        invalidate();
+    }
+
+    public int getRatioHeight() {
+        return ratioHeight;
+    }
+
     public OnMeasureFinishedListener getOnMeasureFinishedListener() {
         return onMeasureFinishedListener;
     }
