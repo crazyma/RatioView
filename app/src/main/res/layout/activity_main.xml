@@ -16,5 +16,5 @@
         ratio:dependOn="width"
         ratio:ratio_width="1"
         ratio:ratio_height="1"
-        android:background="@android:color/white"/>
+        android:background="@android:color/holo_blue_light"/>
 </RelativeLayout>
